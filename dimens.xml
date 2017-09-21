@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="my_horizontal_margin">10dp</dimen>
+    <dimen name="my_vertical_margin">10dp</dimen>
+    <dimen name="my_button_height">48dp</dimen>
+    <dimen name="my_length_textview">20sp</dimen>
+    <dimen name="my_words_length">20sp</dimen>
+    <dimen name="my_line_spacing">150sp</dimen>
+</resources>
