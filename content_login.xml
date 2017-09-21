@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/enterUsername"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterPassword"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:text="@string/Login"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:layout_margin="@dimen/my_vertical_margin"
+        android:layout_marginBottom="@dimen/my_horizontal_margin"
+        android:height="@dimen/my_button_height"
+        android:lineSpacingExtra="@dimen/my_line_spacing"
+        android:id="@+id/btn_login"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/NoAccount"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/my_words_length"
+        android:textAlignment="center"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:text="@string/CreateAccount"
+        android:layout_margin="@dimen/my_vertical_margin"
+        android:layout_marginBottom="@dimen/my_horizontal_margin"
+        android:height="@dimen/my_button_height"
+        android:lineSpacingExtra="@dimen/my_line_spacing"
+        android:id="@+id/btncreateaccount"/>
+
+</LinearLayout>

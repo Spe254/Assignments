@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterFirstName"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterLastName"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterEmail"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterPhone"
+        android:textSize="@dimen/my_length_textview"
+        android:lineSpacingExtra="@dimen/my_line_spacing"/>
+    />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateAccount"
+        android:background="@color/light_blue"
+        android:layout_margin="@dimen/my_vertical_margin"
+        android:layout_marginBottom="@dimen/my_horizontal_margin"
+        android:height="@dimen/my_button_height"
+        android:id="@+id/btncreate"
+        />
+
+</LinearLayout>
